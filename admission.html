@@ -3,12 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Admission</title>
 </head>
 <body>
-    <h2>COMMING SOON</h2>
-    <div>
-        <img src="./chears.gif" alt="">
-    </div>
+    <h1>Admission Panel</h2>
+        <div>
+            <form action="https://formspree.io/f/xyyqbnbw" method="post">
+                <h2>Admission</h2>
+                <fieldset>
+                    <legend>Self explanation:</legend>
+                <p>
+                    <label for="Name">Enter your full name:</label>
+                    <input type="text"> <br><br>
+    
+                    <label for="fName">Enter your Father's name:</label>
+                    <input type="text"><br><br>
+    
+                    <label for="Name">Enter your Mother's name:</label>
+                    <input type="text"><br><br>
+    
+                    <label for="tel">Enter your phone number here:</label>
+                    <input type="tel" name="tel" id="tel"><br><br>
+    
+                    <label for="class">Which class do you want to admit:</label>
+                    <input type="number" name="class" id="class" min="1" max="9" value="1"><br><br>
+    
+                    <label for="text">Say something about yourself:</label><br><br>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea><br><br>
+    
+    
+                    <label for="image">Upload your image here:</label>
+                    <input type="file" name="image" id="image">
+    
+                    </p>
+                </fieldset>
+                <label for="submit"></label>
+                <input type="submit" value="Submit">
+    
+                <label for="reset"></label>
+                <input type="reset" value="Reset">
+            </form>
+        </div>
 </body>
 </html>
