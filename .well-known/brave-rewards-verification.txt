@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: theneweyeopenerkg.netlify.app
+Token: 25289aa82d4b966b9070a4a8e17f353ba8c665fadc31a09db44e9afa10210b88
