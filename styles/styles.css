@@ -146,8 +146,15 @@ th{ font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 6rem;
 }
 address{
-    color: #29381A;
+    
     font-size: larger;
     margin-top: 0px;
     margin-left: 50px;
+}
+footer > address{
+    color: #e2e2e2;
+}
+address > p > a {
+    color: rgb(231, 228, 175);
+    font-size: x-large;
 }
