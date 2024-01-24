@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+
+/* !  Styles for button */
+
+.btn{
+    display: inline-flex;
+    padding: 9px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 1.725px;
+    background: #F3F25B;
+}
+.btn-txt{
+    color: #201F1F;
+    font-family: "Source Serif Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+
+img{
+    width: 433px;
+    height: 563px;
+    flex-shrink: 0;
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+form{
+    width: 866px;
+    height: 563px;
+    border-radius: 8px 0px 0px 8px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 50px;
+    background: #201F1F;
+    color: #CCC6C6;
+}
+
+
+
+textarea{
+    display: flex;
+    width: 367.824px;
+    height: 69.067px;
+    padding: 7.351px 11.762px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 2.205px;
+    border: 0.368px solid #8D8D8D;
+    background: #343333;
+}
+
+input{
+    display: inline-flex;
+    height: 42.285px;
+    padding: 11.414px 235.061px 12.871px 11.762px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2.205px;
+    border: 0.368px solid #8D8D8D;
+    background: #343333;
+    color: #8D8D8D;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Lexend Deca";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 18px */
+    letter-spacing: 0.06px;
+}
+
+.fheading{
+    color: #FFF;
+    font-size: 32px;
+    font-family:  'Source Serif 4', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+}
+
+label{
+    color: #CCC6C6;
+    font-family: "Lexend Deca";
+    font-size: 12px;
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
